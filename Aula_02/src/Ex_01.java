@@ -12,7 +12,7 @@ public class Ex_01 {
 		//Calculo do novo salário
 		float novoSalario = salario + abono;
 		
-		System.out.println("Seu novo salário é: " + novoSalario);
+		System.out.println("Seu novo salário é: R$" + novoSalario);
 		
 	}
 

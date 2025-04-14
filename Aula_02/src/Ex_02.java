@@ -18,8 +18,11 @@ public class Ex_02 {
 		float media = (nota1 + nota2 + nota3 + nota4) / 4 ;
 		
 		System.out.println("A sua média é: " + media);
-		
-
+		if (media >= 6) {
+			System.out.println("Aprovado!");
+		}
+		else {
+			System.out.println("Reprovado!");
+		}
 	}
-
 }

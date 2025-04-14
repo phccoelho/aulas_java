@@ -17,7 +17,7 @@ public class Ex_03 {
 		//Calculo do salario bruto
 		float salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 		
-		System.out.println("Seu salário líquido é :" + salarioLiquido);
+		System.out.println("Seu salário líquido é de: R$" + salarioLiquido);
 
 	}
 
