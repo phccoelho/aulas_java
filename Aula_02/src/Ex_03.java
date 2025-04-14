@@ -5,7 +5,7 @@ public class Ex_03 {
 	public static void main(String[] args) {
 		
 		Scanner leia = new Scanner(System.in);
-		
+		//Leitura dos valores
 		System.out.println("Digite o salário Bruto: ");
 		float salarioBruto = leia.nextFloat();
 		System.out.println("Digite o adicional noturno: ");
@@ -14,7 +14,7 @@ public class Ex_03 {
 		float horasExtras = leia.nextFloat();
 		System.out.println("Digite os Descontos de colaborador: ");
 		float descontos = leia.nextFloat();
-		
+		//Calculo do salario bruto
 		float salarioLiquido = salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos;
 		
 		System.out.println("Seu salário líquido é :" + salarioLiquido);
