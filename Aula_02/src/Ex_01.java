@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Ex_01 {
 
 	public static void main(String[] args) {
+		//
 		Scanner leia = new Scanner(System.in);
 		//Leitura dos dados
 		System.out.println("Digite o salário: ");
