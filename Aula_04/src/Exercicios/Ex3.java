@@ -22,7 +22,7 @@ public class Ex3 {
 		}
 		//Lança na tela o resultado
 		System.out.printf("\nTotal de pessoas menores de 21 anos: %d", menor);
-		System.out.printf("\nTotal de pessoas menores de 21 anos: %d", maior);
+		System.out.printf("\nTotal de pessoas maiores de 50 anos: %d", maior);
 	}
 
 }
